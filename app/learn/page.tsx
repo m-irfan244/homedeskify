@@ -16,14 +16,44 @@ export default function LearnPage() {
               Work Smarter Hub
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Explore our expert tips, guides, and resources to create the workspace you deserve and maximize your productivity.
+              Explore our expert tips, guides, and resources to create the
+              workspace you deserve and maximize your productivity.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Latest Articles */}
+      {/* Resources Section - Moved to top */}
       <section className="py-16 bg-white">
+        <div className="container">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-8">
+            Productivity Resources
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <ResourceCard
+              title="Budget Calculator"
+              description="Calculate the cost of your ideal home office setup"
+              type="tool"
+              href="/tools/budget-calculator"
+            />
+            <ResourceCard
+              title="Workspace Planner"
+              description="Interactive tool to plan your perfect home office layout"
+              type="tool"
+              href="/tools/workspace-planner"
+            />
+            <ResourceCard
+              title="Setup Guide"
+              description="Comprehensive guide to setting up your workspace"
+              type="pdf"
+              href="/guides/setup"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Latest Articles */}
+      <section className="py-16 bg-gray-50">
         <div className="container">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-8">
             Latest Articles
@@ -33,41 +63,12 @@ export default function LearnPage() {
       </section>
 
       {/* Video Tutorials */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="container">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-8">
             Video Tutorials
           </h2>
           <VideoSection />
-        </div>
-      </section>
-
-      {/* Resources */}
-      <section className="py-16 bg-white">
-        <div className="container">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-8">
-            Productivity Resources
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <ResourceCard
-              title="Workspace Planner"
-              description="Interactive tool to plan your perfect home office layout"
-              type="tool"
-              href="/tools/workspace-planner"
-            />
-            <ResourceCard
-              title="Budget Calculator"
-              description="Calculate the cost of your ideal home office setup"
-              type="spreadsheet"
-              href="/tools/budget-calculator"
-            />
-            <ResourceCard
-              title="Setup Guide"
-              description="Comprehensive guide to setting up your workspace"
-              type="pdf"
-              href="/guides/setup"
-            />
-          </div>
         </div>
       </section>
 
@@ -97,13 +98,17 @@ export default function LearnPage() {
             </div>
             <div className="py-4">
               <h3 className="text-xl md:text-2xl font-semibold mb-4">
-                "My productivity increased by 40% after redesigning my workspace"
+                "My productivity increased by 40% after redesigning my
+                workspace"
               </h3>
               <p className="text-gray-600 mb-6">
-                Kulsoom Shafa, a software engineer, revolutionized her work-from-home experience with our custom workspace solution.
+                Kulsoom Shafa, a software engineer, revolutionized her
+                work-from-home experience with our custom workspace solution.
               </p>
               <Button asChild>
-                <Link href="/blog/kulsoom-workspace-transformation">Read Full Story</Link>
+                <Link href="/blog/kulsoom-workspace-transformation">
+                  Read Full Story
+                </Link>
               </Button>
             </div>
           </div>
@@ -113,9 +118,12 @@ export default function LearnPage() {
       {/* CTA Section */}
       <section className="py-16 bg-primary text-white">
         <div className="container text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Workspace?</h2>
+          <h2 className="text-3xl font-bold mb-6">
+            Ready to Transform Your Workspace?
+          </h2>
           <p className="text-lg mb-8 opacity-90">
-            Book a consultation with our experts and start your journey to a more productive workspace.
+            Book a consultation with our experts and start your journey to a
+            more productive workspace.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link href="/contact">Book a Consultation</Link>

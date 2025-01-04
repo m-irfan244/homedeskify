@@ -7,8 +7,8 @@ const links = [
   { href: "/learn", label: "Resources" },
   { href: "/shop", label: "Shop" },
   { href: "/pricing", label: "Pricing" },
+  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Navigation() {
