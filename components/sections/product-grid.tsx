@@ -26,7 +26,8 @@ const products = [
     id: 3,
     name: "Monitor Stand",
     price: 4999,
-    image: "https://images.unsplash.com/photo-1611269154421-4e27233c125a",
+    image:
+      "https://images.unsplash.com/photo-1532014834043-c6dcba19ba50?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Accessories",
   },
   {
@@ -58,10 +59,7 @@ export function ProductGrid() {
             <p className="text-lg font-bold text-primary mb-4">
               {formatPrice(product.price)}
             </p>
-            <Button 
-              className="w-full"
-              onClick={() => addItem(product)}
-            >
+            <Button className="w-full" onClick={() => addItem(product)}>
               <ShoppingCart className="h-4 w-4 mr-2" />
               Add to Cart
             </Button>

@@ -4,23 +4,26 @@ import { Star } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Software Developer",
-      content: "Homedeskify transformed my cramped corner into a productivity powerhouse. The ergonomic setup has done wonders for my posture!",
-      rating: 5
+      name: "Kulsoom Shafa",
+      role: "LinkedIn Content Creator",
+      content:
+        "As Gilgit Baltistan's top content creator, Homedeskify transformed my content creation space into a professional studio. The setup has significantly improved my content quality!",
+      rating: 5,
     },
     {
       name: "Michael Chen",
       role: "Freelance Designer",
-      content: "The custom solution perfectly fits my space and workflow. Their team really understood my needs as a creative professional.",
-      rating: 5
+      content:
+        "The custom solution perfectly fits my space and workflow. Their team really understood my needs as a creative professional.",
+      rating: 5,
     },
     {
       name: "Emma Rodriguez",
       role: "Remote Team Lead",
-      content: "98% productivity improvement since switching to Homedeskify. The premium setup was worth every penny.",
-      rating: 5
-    }
+      content:
+        "98% productivity improvement since switching to Homedeskify. The premium setup was worth every penny.",
+      rating: 5,
+    },
   ];
 
   return (
@@ -34,7 +37,10 @@ export function Testimonials() {
             <Card key={testimonial.name} className="p-6">
               <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                  <Star
+                    key={i}
+                    className="h-5 w-5 text-yellow-400 fill-current"
+                  />
                 ))}
               </div>
               <p className="text-gray-600 mb-4">{testimonial.content}</p>
