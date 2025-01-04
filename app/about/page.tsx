@@ -13,8 +13,7 @@ export default function AboutPage() {
               About Homedeskify
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              A project by 4 Gene Technologies, transforming home offices into
-              productive, comfortable, and inspiring workspaces.
+              A project by 4 Gene Technologies, transforming home offices into productive, comfortable, and inspiring workspaces.
             </p>
           </div>
         </div>
@@ -27,16 +26,10 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Homedeskify was born from 4 Gene Technologies' vision to
-                revolutionize remote work environments. As a leading technology
-                company, we recognized the growing need for professional-grade
-                home office solutions.
+                Homedeskify was born from 4 Gene Technologies' vision to revolutionize remote work environments. As a leading technology company, we recognized the growing need for professional-grade home office solutions.
               </p>
               <p className="text-gray-600">
-                Backed by 4 Gene Technologies' expertise in innovation and
-                technology, we combine ergonomic excellence with cutting-edge
-                solutions to create workspaces that inspire productivity and
-                well-being.
+                Backed by 4 Gene Technologies' expertise in innovation and technology, we combine ergonomic excellence with cutting-edge solutions to create workspaces that inspire productivity and well-being.
               </p>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
@@ -55,27 +48,20 @@ export default function AboutPage() {
       <section className="py-16 bg-gray-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">
-              Powered by 4 Gene Technologies
-            </h2>
+            <h2 className="text-3xl font-bold mb-6">Powered by 4 Gene Technologies</h2>
             <p className="text-gray-600 mb-8">
-              As a project of 4 Gene Technologies, we leverage years of
-              expertise in technology and innovation to deliver exceptional home
-              office solutions. Our parent company's commitment to excellence
-              drives everything we do.
+              As a project of 4 Gene Technologies, we leverage years of expertise in technology and innovation to deliver exceptional home office solutions. Our parent company's commitment to excellence drives everything we do.
             </p>
           </div>
         </div>
       </section>
 
+      {/* CTA Section */}
       <section className="py-16 bg-primary text-white">
         <div className="container text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Ready to Transform Your Workspace?
-          </h2>
+          <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Workspace?</h2>
           <p className="text-lg mb-8 opacity-90">
-            Join thousands of professionals who have elevated their home office
-            experience with Homedeskify, a 4 Gene Technologies project.
+            Join thousands of professionals who have elevated their home office experience with Homedeskify, a 4 Gene Technologies project.
           </p>
           <Button size="lg" variant="secondary">
             Book a Call Today

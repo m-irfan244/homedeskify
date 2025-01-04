@@ -3,9 +3,9 @@ import { Check } from "lucide-react";
 
 // Helper function to format PKR amounts
 function formatPKR(amount: number) {
-  return new Intl.NumberFormat("ur-PK", {
-    style: "currency",
-    currency: "PKR",
+  return new Intl.NumberFormat('ur-PK', {
+    style: 'currency',
+    currency: 'PKR',
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   }).format(amount);
@@ -73,13 +73,9 @@ export default function PricingPage() {
               className="bg-white rounded-lg shadow-lg overflow-hidden"
             >
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900">
-                  {plan.name}
-                </h3>
+                <h3 className="text-2xl font-bold text-gray-900">{plan.name}</h3>
                 <div className="mt-4">
-                  <span className="text-4xl font-bold">
-                    {formatPKR(plan.price)}
-                  </span>
+                  <span className="text-4xl font-bold">{formatPKR(plan.price)}</span>
                 </div>
                 <p className="mt-4 text-gray-600">{plan.description}</p>
               </div>
