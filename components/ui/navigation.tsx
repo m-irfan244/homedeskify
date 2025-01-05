@@ -19,7 +19,7 @@ const navItems = [
   { label: "Shop", href: "/shop" },
   { label: "Pricing", href: "/pricing" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export function Navigation() {
